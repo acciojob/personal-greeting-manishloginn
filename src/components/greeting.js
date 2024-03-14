@@ -15,7 +15,7 @@ class Greeting extends Component {
      changedText = (e) => {
         
         const newValue = e.target.value;
-        debugger
+        
         this.setState({value : newValue});
     }
 
